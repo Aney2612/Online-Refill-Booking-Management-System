@@ -1,0 +1,138 @@
+<!-- MAIN PAGE -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Main</title>
+</head>
+<body>
+
+    <div class="background">
+        <!-- header -->
+         <div class="header">
+            <div class="img">
+                <a href="main.html"><img src="image\gas.png" width="80" height="80" alt="gas"></a>
+                <a href="main.html"><img src="image\LOGO.png" width="200" height="60" alt="logo"></a>
+
+                <div class="social">
+                    <a href="https://www.instagram.com/indianoilcorp/#"><img src="image\insta.png" width="40" height="40" alt="insta"></a>
+                    <a href="https://www.youtube.com/channel/UC5ho18VZHwEFSahW0Q_o-6g/feed"><img src="image\youtube.png" width="40" height="40" alt="youtube"></a>
+                    <a href="https://www.facebook.com/IndianOilCorpLimited"><img src="image\fb.png" width="40" height="40" alt="fb"></a>
+                    <a href="https://x.com/indianOilcl?mx=2"><img src="image\twitter.png" width="40" height="40" alt="twitter"></a>
+                    <a href="https://www.linkedin.com/company/indian-oil-corp-limited"><img src="image\linkedin.png" width="40" height="40" alt="whatsapp"></a>
+                </div>
+                <input type="search" placeholder="What do you want to know?">
+            </div>
+         </div>
+
+         <!--navigation bar-->
+         <nav>
+            <ul>
+                <li>
+                    <div class="dropdown">
+                    <button class="dropbtn"><span><i class="fa fa-bars"></i></span></button>
+                    <div class="dropdown-content">
+                        <hr style="border: 2px solid rgb(71, 71, 192)">
+                        <div class="info">
+                            <h2><br>&nbsp;INDIAN OIL</h2>
+                        </div>
+                        <hr style="border: 1px solid rgb(71, 71, 192)">
+                        <ul>
+                            <a href="Conn_Req.html" class="dropdown-links">
+                                <p>Connection request</p> 
+                                <span><i class="fa fa-angle-right"></i></span>
+                            </a>
+                            <hr style="border: 1px solid rgb(71, 71, 192)">
+                            <a href="Conn_Req_Status.jsp" class="dropdown-links">
+                                <p>Connection request status</p> 
+                                <span><i class="fa fa-angle-right"></i></span>
+                            </a>
+                            <hr style="border: 1px solid rgb(71, 71, 192)">
+                            <a href="RefillBooking.html" class="dropdown-links">
+                                <p>Refill Booking request</p> 
+                                <span><i class="fa fa-angle-right"></i></span>
+                            </a>
+                            <hr style="border: 1px solid rgb(71, 71, 192)">
+                            <a href="RefillBookingStatus.jsp" class="dropdown-links">
+                                <p>Refill Booking request status</p> 
+                                <span><i class="fa fa-angle-right"></i></span>
+                            </a>
+                            <hr style="border: 1px solid rgb(71, 71, 192)">
+                            <a href="Add_Update.html" class="dropdown-links">
+                                <p>Address Update</p> 
+                                <span><i class="fa fa-angle-right"></i></span>
+                            </a>
+                            <hr style="border: 1px solid rgb(71, 71, 192)">
+                            <a href="Add_update_status.jsp" class="dropdown-links">
+                                <p>Address Update Status</p> 
+                                <span><i class="fa fa-angle-right"></i></span>
+                            </a>
+                            <hr style="border: 1px solid rgb(71, 71, 192)">
+                            <a href="FAQ.html" class="dropdown-links">
+                                <p>FAQ</p> 
+                                <span><i class="fa fa-angle-right"></i></span>
+                            </a>
+                            <hr style="border: 1px solid rgb(71, 71, 192)">
+                        </ul>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="contact1.html"><i class="fa fa-phone">  CONTACT US</i></a></li>
+
+                <li style="float: right;">
+                    <div class="dropdown-Profile">
+                    <button class="dropbtn-Profile"><span><i class="fa fa-user">PROFILE</i></span></button>
+                    
+                    <div class="dropdown-Profile-content">
+                        <hr style="border: 2px solid rgb(71, 71, 192)">
+                        <div class="info-Profile">
+                            <h2><br>&nbsp;Username</h2>
+                        </div>
+                        <hr style="border: 1px solid rgb(71, 71, 192)">
+                        <ul>
+                            <a href="profile.jsp" class="dropdown-Profile-links">
+                                <p>Profile</p> 
+                                <span>
+                                    <!--<i class="fa fa-angle-right"></i>-->
+                                </span>
+                            </a>
+                            <hr style="border: 1px solid rgb(71, 71, 192)">
+                            <a href="index.html" class="dropdown-Profile-links">
+                                <p>Logout</p> 
+                                <span></span>
+                            </a>
+                            <hr style="border: 1px solid rgb(71, 71, 192)">
+                        </ul>
+                    </div>
+                  </div>
+                </li>
+            </ul>
+         </nav>
+
+         <div class="img2">
+            <img src="image\IOC.jpg" width="100%" height="90%">
+        </div>
+    </div>
+    <!--footer-->
+    <footer>
+        <hr style="height: 1px; margin-top: -3px; background-color:white;">
+        <p style="font-size:larger; padding-bottom:-5px;">
+        <center><b>&copy; 2025 - REFILL MANAGEMENT SYSTEM.</b></center></p>
+    </footer>
+    
+
+    <script>
+        let profileMenu = document.getElementById("profileMenu");
+
+        function toggleProfile(){
+            profileMenu.classList.toggle("open-profile");
+        }
+        
+    </script>
+</body>
+</html>

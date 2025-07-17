@@ -1,0 +1,183 @@
+<!-- LOGIN PAGE -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login</title>
+    <style>
+        fieldset{
+            width: 21%;
+            height: 35%;
+            margin-top: 10%;
+            margin-left: 42%;
+            padding: 2%;
+            position: absolute;
+            background-color: white;
+        }
+
+        fieldset i{
+            color: black;
+            position: absolute;
+        }
+
+        table{
+            font-weight: bolder;
+            font-size: larger;
+            position: absolute;
+        }
+        
+        table,th,td{
+            align-content: center;
+            color: black;
+        }
+        th{
+            font-weight: bold;
+        }
+        hr{
+            margin-top: 8px;
+        }
+        th,td{
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        td{
+            text-align: left;
+        }
+        .button{
+            font-size: 16px;
+            font-weight: bold;
+            padding: 5px 6px;
+            margin-top: 54%;
+            margin-left: 32%;
+            background-color: transparent;
+            border: none;
+            transition-duration: 0.4s;
+            position: absolute;
+        }
+
+        .button:hover{
+            background-color: green;
+            color: white;
+        }
+        .button a{
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+        }
+        .button a:hover{
+            color: white;
+        }
+        
+        .button1{
+            font-size: 16px;
+            font-weight: bold;
+            padding: 5px 6px;
+            margin-top: 54%;
+            margin-left: 67%;
+            background-color: transparent;
+            border: none;
+            transition-duration: 0.4s;
+            position: absolute;
+        }
+
+        .button1:hover{
+            background-color: green;
+            color: white;
+        }
+        
+        .button2{
+            font-size: 16px;
+            font-weight: bold;
+            padding: 5px 6px;
+            margin-top: 54%;
+            margin-left: -6%;
+            background-color: transparent;
+            border: none;
+            transition-duration: 0.4s;
+            position: absolute;
+        }
+
+        .button2:hover{
+            background-color: green;
+            color: white;
+        }
+        .button2 a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .button2 a:hover{
+            color: white;
+        }
+        .img3{
+            margin-top: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="background">
+        <!-- header -->
+         <div class="header">
+            <div class="img">
+                <a href="index.html"><img src="image\gas.png" width="80" height="80" alt="gas"></a>
+                <a href="index.html"><img src="image\LOGO.png" width="200" height="60" alt="logo"></a>
+
+                <div class="social">
+                    <a href="https://www.instagram.com/indianoilcorp/#"><img src="image\insta.png" width="40" height="40" alt="insta"></a>
+                    <a href="https://www.youtube.com/channel/UC5ho18VZHwEFSahW0Q_o-6g/feed"><img src="image\youtube.png" width="40" height="40" alt="youtube"></a>
+                    <a href="https://www.facebook.com/IndianOilCorpLimited"><img src="image\fb.png" width="40" height="40" alt="fb"></a>
+                    <a href="https://x.com/indianOilcl?mx=2"><img src="image\twitter.png" width="40" height="40" alt="twitter"></a>
+                    <a href="https://www.linkedin.com/company/indian-oil-corp-limited"><img src="image\linkedin.png" width="40" height="40" alt="whatsapp"></a>
+                </div>
+                <input type="search" placeholder="What do you want to know?">
+            </div>
+         </div>
+
+         <!--navigation bar-->
+         <nav>
+            <ul>
+                <li><span><a href="index.html"><i class="fa fa-home">  HOME</i></a></span></li>
+                <li><a href="contact.html"><i class="fa fa-phone">  CONTACT US</i></a></li>
+                <li><a href="about.html"><i class="fa fa-info-circle">  ABOUT US</i></a></li>
+            </ul>
+         </nav>
+         
+         <form name="form2" method="post" action="login.jsp">
+            <fieldset>
+                <table>
+                    <tr>
+                        <th colspan="2"> LOGIN <hr></th>
+                    </tr>
+                    
+                    <tr>
+                        <td><label for="email"><b>Email:</b></label></td>
+                        <td><input type="text" name="email" required><br><br></td>
+                    </tr>
+                    <tr>          
+                        <td><label for="psw"><b>Password:</b></label></td>
+                        <td><input type="password" name="psw" required><br><br></td>
+                    </tr>
+                </table>
+                <button type="prev" class="button2"><a href="index.html">Previous</a></button>
+                <button type="submit" class="button">Login</button>
+                <button type="Reset" class="button1">Clear</button>
+            </fieldset>
+         </form>
+
+         <div class="img3">
+            <img src="image\IOC.jpg" width="100%" height="90%">
+        </div>
+    </div>
+    <!--footer-->
+    <footer>
+        <hr style="height: 1px; margin-top: -3px; background-color:white;">
+        <p style="font-size:larger; padding-bottom:-5px;">
+        <center><b>&copy; 2025 - REFILL MANAGEMENT SYSTEM.</b></center></p>
+    </footer>
+</body>
+</html>
